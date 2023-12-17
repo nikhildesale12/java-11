@@ -1,0 +1,14 @@
+Java 11 introduced multiple enhancements to String.
+
+String.repeat(int) − Repeats a string given number of times. Returns the concatenated string.
+
+String.isBlank() − Checks if a string is empty or have white spaces only.
+
+String.strip() − Removes the leading and trailing whitespaces.
+
+String.stripLeading() − Removes the leading whitespaces.
+
+String.stripTrailing() − Removes the trailing whitespaces.
+
+String.lines() − Return the stream of lines of multi-line string.
+

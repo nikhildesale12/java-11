@@ -1,0 +1,10 @@
+With Java 11, now HttpClient is a standard. It is recommended to use instead of other HTTP Client APIs like Apache Http Client API. 
+It is quite feature rich and now Java based applications can make 
+HTTP requests without using any external dependency.
+
+Following are the steps to use an HttpClient.
+	1.Create HttpClient instance using HttpClient.newBuilder() instance
+
+	2.Create HttpRequest instance using HttpRequest.newBuilder() instance
+
+	3.Make a request using httpClient.send() and get a response object.

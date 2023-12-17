@@ -1,0 +1,6 @@
+Java 11 introduced an easy way to convert a collection to an array.
+
+Old Way
+nameArray = nameList.toArray(new String[nameList.size()]);
+New Way
+nameArray = nameList.toArray(String[]::new);

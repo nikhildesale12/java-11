@@ -1,0 +1,15 @@
+Java 11 allows to use var in a lambda expression and it can be used to apply modifiers to local variables.
+
+(@NonNull var value1, @Nullable var value2) -> value1 + value2
+
+Limitations
+There are certain limitations on using var in lambda expressions.
+
+1. var parameters cannot be mixed with other parameters. Following will throw compilation error.
+	(var v1, v2) -> v1 + v2
+	
+2. parameters cannot be mixed with other typed parameters. Following will throw compilation error.
+	(var v1, String v2) -> v1 + v2
+	
+3. var parameters can only be used with parenthesis. Following will throw compilation error.
+	var v1 -> v1.toLowerCase()

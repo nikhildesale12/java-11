@@ -1,0 +1,1 @@
+Java 11 introduced new method to Predicate interface as not() to negate an existing predicate similar to negate method.

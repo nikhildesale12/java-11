@@ -1,0 +1,10 @@
+Java 11 introduced a concept of nested class where we can declare a class within a class. This nesting of classes allows to 
+logically group the classes to be used in one place, making them more readable and maintainable. 
+
+Nested class can be of four types −
+	1.Static nested classes
+	2.Non-static nested classes
+	3.Local classes
+	4.Anonymous classes
+
+Java 11 also provide the concept of nestmate to allow communication and verification of nested classes.

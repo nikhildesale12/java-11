@@ -1,0 +1,4 @@
+Java 11 introduced new method to Optional class as isEmpty() to check if value is present. 
+isEmpty() returns false if value is present otherwise true.
+
+It can be used as an alternative of isPresent() method which often needs to negate to check if value is not present.

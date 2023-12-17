@@ -1,0 +1,20 @@
+Java 11 onwards, now a single java file can be tested easily without compiling as well
+
+as well. Consider the following example −
+
+ApiTester.java
+public class Tester {
+   public static void main(String[] args) {
+     System.out.println("Hello World!"); 
+   }
+}
+
+Old way of running file
+$ javac ApiTester.java
+$ java Tester
+Hello World!
+
+
+New way of running file
+$ java ApiTester.java
+Hello World!

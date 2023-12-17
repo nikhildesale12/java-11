@@ -1,0 +1,1 @@
+Java 11 introduced an easy way to read and write files by providing new overloaded methods without writing much boiler plate code.
